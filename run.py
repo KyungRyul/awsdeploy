@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-  return 'aws홈페이지'
+  return 'aws'
 
 if __name__ == '__main__':
   app.run(debug=True, ip='0.0.0.0')
